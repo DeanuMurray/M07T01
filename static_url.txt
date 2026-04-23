@@ -1,16 +1,12 @@
 Deployed Website URL
 ====================
 
+GitHub Pages Deployment:
+https://deanumurray.github.io/M07T01/
+
 Local Development:
 http://localhost:8000
 
-GitHub Pages Deployment:
-https://deanu.github.io/MyCV
-
-Docker Deployment:
-http://localhost:8080 (via docker-compose)
-
-To view the website locally, run:
-python -m http.server 8000
-
-Then visit http://localhost:8000 in your browser.
+Notes:
+- If this URL returns 404, enable GitHub Pages in the repo settings:
+	Settings -> Pages -> Source: Deploy from a branch -> Branch: main / (root)

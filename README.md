@@ -1,1 +1,29 @@
-# Static Website Deployment - M07T01\n\n## Overview\nThis project demonstrates deploying a static website using Docker and Nginx.\n\n## Project Structure\n```\nM07T01/\n├── index.html              # Main HTML file\n├── css/\n│   └── style.css          # Stylesheet\n├── js/\n│   └── main.js            # JavaScript functionality\n├── Dockerfile             # Docker configuration\n├── docker-compose.yml     # Container orchestration\n├── nginx.conf             # Nginx web server config\n├── .gitignore\n├── .dockerignore\n└── README.md\n```\n\n## Quick Start\n\n### Local Development\n```bash\n# Using Python\npython -m http.server 8000\n\n# Visit http://localhost:8000\n```\n\n### Docker Deployment\n```bash\n# Build and run with Docker Compose\ndocker-compose up\n\n# Visit http://localhost:8080\n```\n\n### Manual Docker\n```bash\n# Build image\ndocker build -t static-portfolio .\n\n# Run container\ndocker run -d -p 8080:80 static-portfolio\n```\n\n## Key Files\n\n- **Dockerfile**: Nginx Alpine image for production serving\n- **nginx.conf**: Production-grade web server configuration with:\n  - Gzip compression\n  - Cache headers for performance\n  - Security headers\n  - Proper MIME types\n\n- **docker-compose.yml**: Easy deployment orchestration\n- **index.html**: Responsive portfolio website\n- **css/style.css**: Modern responsive styling\n- **js/main.js**: Interactive features (smooth scrolling, animations)\n\n## Deployment Options\n\n1. **Docker** (Recommended): `docker-compose up`\n2. **GitHub Pages**: Push to gh-pages branch\n3. **Traditional Hosting**: Upload files via FTP\n\n## Testing\n```bash\n# Check container is running\ndocker ps\n\n# View logs\ndocker-compose logs -f\n\n# Access website\ncurl http://localhost:8080\n```\n\n
+# Static Website Deployment - M07T01
+
+## Overview
+This module contains a static personal CV website prepared for GitHub Pages deployment.
+
+## Project Files
+- index.html - Main CV web page
+- my_cv.txt - Deployment information for the CV page
+- static_url.txt - Submitted static site URL
+- my_cv.jpg - Screenshot evidence
+
+## Local Run
+```bash
+cd M07T01
+python -m http.server 8000
+```
+
+Open http://localhost:8000
+
+## Live Deployment
+Expected GitHub Pages URL:
+
+https://deanumurray.github.io/M07T01/
+
+If this URL shows 404, enable Pages in the repository settings:
+1. Settings
+2. Pages
+3. Source: Deploy from a branch
+4. Branch: main and / (root)
