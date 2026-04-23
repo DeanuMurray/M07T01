@@ -1,0 +1,16 @@
+Deployed Website URL
+====================
+
+Local Development:
+http://localhost:8000
+
+GitHub Pages Deployment:
+https://deanu.github.io/MyCV
+
+Docker Deployment:
+http://localhost:8080 (via docker-compose)
+
+To view the website locally, run:
+python -m http.server 8000
+
+Then visit http://localhost:8000 in your browser.

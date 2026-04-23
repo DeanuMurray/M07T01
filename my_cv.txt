@@ -1,0 +1,32 @@
+Online CV - Deployment Information
+====================================
+
+Project: MyCV - Personal Portfolio & Online Resume
+Version: 1.0
+Created: February 2026
+
+WEBSITE URLS:
+=============
+
+Local Development:
+http://localhost:8000
+
+GitHub Pages Deployment:
+https://deanu.github.io/MyCV
+
+Features:
+=========
+- Professional online CV with personal introduction (3 paragraphs)
+- Contact details (email, phone, professional social media links)
+- Skills and competencies (4 categories with 16+ skills)
+- Education history
+- Work experience with key responsibilities
+- Featured projects section
+- Responsive design for all devices
+- Smooth scrolling and animations
+
+To View Locally:
+================
+1. Navigate to M07T01 folder
+2. Run: python -m http.server 8000
+3. Open: http://localhost:8000
