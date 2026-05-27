@@ -1,12 +1,12 @@
-Deployed Website URL
-====================
+Deployed Static Website URL
+============================
 
 GitHub Pages Deployment:
-https://deanumurray.github.io/M07T01/
+https://deanumurray.github.io/static-shopping-page/
 
-Local Development:
-http://localhost:8000
+Repository:
+https://github.com/DeanuMurray/static-shopping-page
 
 Notes:
-- If this URL returns 404, enable GitHub Pages in the repo settings:
-	Settings -> Pages -> Source: Deploy from a branch -> Branch: main / (root)
+- This is the Task 1 static site (Simple Shop Bootstrap demo)
+- Deployed via GitHub Pages from the main branch
