@@ -1,7 +1,3 @@
-Deployed Static Website URL
-============================
-
-GitHub Pages Deployment:
 https://deanumurray.github.io/static-shopping-page/
 
 Repository:

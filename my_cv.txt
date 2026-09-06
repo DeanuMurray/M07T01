@@ -1,18 +1,1 @@
-Online CV - Deployment Information
-==================================
-
-Project: M07T01 - Personal Portfolio CV
-
-Live URL:
-=========
 https://deanumurray.github.io/M07T01/
-
-Local URL:
-==========
-http://localhost:8000
-
-Verification checklist:
-=======================
-1. Confirm the live URL opens without 404.
-2. Confirm the screenshot includes the browser address bar showing the live URL.
-3. Confirm static_url.txt and my_cv.txt both contain the same live URL.
